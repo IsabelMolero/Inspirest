@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  /* FUENTE */
+  --p3-primary-font: 'Inter', sans-serif;
+  font-family: var(--p3-primary-font);
+
+  /* COLORS */
+  --p3-color-black: #000000;
+  --p3-color-white: #ffffff;
+  --p3-color-red: #ff0000;
+  --p3-color-pink: #ff5a79;
+  --p3-color-grey: #ececec;
+  --p3-color-darkgrey: #757575;
+
+  --p3-color-secondary-1: #d3f27d;
+  --p3-color-secondary-2: #0a22f8;
+  --p3-color-secondary-3: #98ebf0;
+  --p3-color-secondary-4: #1f6726;
+  --p3-color-secondary-5: #f27ded;
+  --p3-color-secondary-6: #fb6f0a;
+  --p3-color-secondary-7: #7df288;
+  --p3-color-secondary-8: #3da7a7;
+  --p3-color-secondary-9: #ff3636;
+  --p3-color-secondary-10: #da00ed;
+
+  /* BORDERS */
+  --p3-border-radius-s: 20px;
+  --p3-border-radius-m: 30px;
+
+  /* SPACINGS */
+  --master-padding-xs: 10px;
+  --master-padding-s: 15px;
+  --master-padding-m: 20px;
+  --master-padding-l: 30px;
+  --master-padding-xl: 40px;
+
+  --master-margin-xs: 5px;
+  --master-margin-s: 15px;
+  --master-margin-m: 20px;
+  --master-margin-l: 30px;
+  --master-margin-xl: 40px;
+
+  --master-gap-xs: 5px;
+  --master-gap-s: 10px;
+  --master-gap-m: 20px;
+  --master-gap-l: 30px;
+  --master-gap-xl: 40px;
+}
