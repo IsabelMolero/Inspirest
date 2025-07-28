@@ -1,0 +1,19 @@
+//PETICION//
+import { createApi } from 'unsplash-js'
+
+const unsplash = createApi({
+  accessKey: import.meta.env.VITE_ACCESS_KEY
+})
+
+export const searchPhotos = async (keyword) => {
+  const images = await unsplash.search.getPhotos({
+    query: keyword,
+    page: 1,
+    perPage: 30
+  })
+
+  // console.log(images)
+  return images
+}
+// const resultsPhotos = await searchPhotos('cat')
+// console.log(resultsPhotos)

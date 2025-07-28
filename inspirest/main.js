@@ -1,20 +1,9 @@
 import './style.css'
 
-import { createApi } from 'unsplash-js'
+// //PETICION//
+// import { searchPhotos } from './src/utils/Unsplash'
+// const resultsPhotos = await searchPhotos('cat')
+// console.log(resultsPhotos)
 
-const unsplash = createApi({
-  accessKey: import.meta.env.VITE_ACCESS_KEY
-})
-
-const searchPhotos = async (keyword) => {
-  const images = await unsplash.search.getPhotos({
-    query: keyword,
-    page: 1,
-    perPage: 30
-  })
-  return images
-}
-
-const solicitud = await searchPhotos('cat')
-
-console.log(solicitud)
+//HEADER//
+import './src/components/HEADER/header'
