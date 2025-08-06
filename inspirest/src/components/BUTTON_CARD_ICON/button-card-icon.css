@@ -1,0 +1,26 @@
+.buttonIcon {
+  position: absolute;
+  margin: var(--master-margin-s);
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-color: var(--p3-color-grey);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.buttonIcon > img {
+  width: 12px;
+  height: auto;
+}
+
+.card:hover .buttonIcon {
+  opacity: 1;
+}

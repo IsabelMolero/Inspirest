@@ -11,8 +11,6 @@ export const searchPhotos = async (keyword) => {
     page: 1,
     perPage: 30
   })
-
-  // console.log(images)
   return images
 }
 // const resultsPhotos = await searchPhotos('cat')

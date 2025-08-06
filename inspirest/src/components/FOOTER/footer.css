@@ -1,0 +1,7 @@
+/* FOOTER STYLES */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--master-margin-m) 0;
+}
